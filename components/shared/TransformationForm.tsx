@@ -52,7 +52,7 @@ const TransformationForm = ({
   userId,
   type,
   creditBalance,
-  config,
+  config = null,
 }: TransformationFormProps) => {
   const router = useRouter();
   const transformation = transformationTypes[type];
